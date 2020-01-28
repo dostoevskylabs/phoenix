@@ -1,4 +1,3 @@
-
 /* IMPORT */
 
 require ( './config/phoenix.js' );
@@ -14,6 +13,7 @@ require ( './helpers/get_named_frame.js' );
 require ( './helpers/get_space_index.js' );
 require ( './helpers/get_space_name.js' );
 require ( './helpers/grow_frame.js' );
+require ( './helpers/shrink_frame.js' );
 require ( './helpers/index2keycode.js' );
 require ( './helpers/is_anchored.js' );
 require ( './helpers/log.js' );
@@ -41,6 +41,7 @@ require ( './shortcuts/focus.js' );
 require ( './shortcuts/fullscreen.js' );
 require ( './shortcuts/info.js' );
 require ( './shortcuts/grow.js' );
+require ( './shortcuts/shrink.js' );
 require ( './shortcuts/halves.js' );
 require ( './shortcuts/pause.js' );
 require ( './shortcuts/quit.js' );
