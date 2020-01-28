@@ -27,7 +27,9 @@ setKeyHandler ( 'return', HYPER, () => {
       spaceData[space].lastA = windows[0].frame();
       spaceData[space].lastB = windows[1].frame();
       windows[0].setFrame({x: 0, y: 0, width: screenPortion, height: '100%'})
-      windows[1].setFrame({x: screenPortion, y: 0, width: screenPortion, height: '100%'})
+
+      let position = windows[0].frame().width;
+      windows[1].setFrame({x: position, y: 0, width: position, height: '100%'})
     }
   }
 });
