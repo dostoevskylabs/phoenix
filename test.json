@@ -7,24 +7,15 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "button2",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
+            "key_code": "button3"
             }
           },
           "to": [
             {
               "key_code": "left_control",
               "modifiers": [
-                "up"
+                "up_arrow"
               ]
-            }
-          ],
-          "to_if_alone": [
-            {
-              "key_code": "f18"
             }
           ]
         }
